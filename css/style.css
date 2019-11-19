@@ -1,0 +1,158 @@
+body {
+    background-image: url("C:/web/gambar/wear.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-attachment: fixed;
+    background-position: center
+    }
+table {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 150px;
+    height: 50px;
+
+}
+table th {
+    border-width: 1px;
+    padding: 2px;
+    border-style: none;
+    border-color: black;
+    background-color: skyblue;
+    color: black;
+    margin : 0px;
+}
+table tr:hover td {
+    cursor: pointer;
+    margin: 0px;
+   
+}
+table tr:nth-child(even) td{
+    background-color: none;
+}
+table td {
+    border-width: 1px;
+    padding: 20px;
+  border-style: none;
+    border-color: none;
+    background-color: none;
+margin: 0px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100  ;
+  } 
+
+hr {
+    border: 0;
+    background: #201d1d;
+    height: 1px;
+}
+
+header {
+    text-align: center;
+   
+}
+
+marquee {
+    font-size: 60px;
+    font-style: italic;
+    margin: 100px;   
+}
+
+.header {
+    position: inherit;
+}
+
+.wrap {
+    width: 800px;
+    margin: 25px auto;
+}
+
+nav.menu ul {
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    float: left;
+    padding: 0;
+    width: 650px;
+    margin: 0px;
+    background: #1abc9c;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+    box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+}
+
+nav.menu ul li {
+    margin: 00;
+    float: left;
+}
+
+nav.menu ul a {
+    padding: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    margin: 0px;
+}
+
+nav.menu ul a:hover {
+    text-decoration: underline;
+    background: #16a085;
+    margin: 0px;
+}
+
+
+tr,
+td {
+    text-decoration-style: solid;
+    margin: 200x;
+}
+
+h1,
+h2,
+h5 {
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+}
+
+footer {
+    color: black;
+}
+
+div {
+    color: black;
+    text-decoration-line: none;
+    margin: 150px;
+}
+
+p {
+    font-size: 15px;
+ color: black;
+}
+
+br {
+    font-size: 15px;
+    color: black;
+}
+
+
+
+     
+
+
